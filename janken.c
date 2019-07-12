@@ -18,7 +18,7 @@ int main() {
   printf("本田の手: %d\n", honda_hand);
   if (my_hand == honda_hand) {
     printf("あいこ！\n");
-  } else if ((my_hand - honda_hand) % 3 == 2) {
+  } else if ((my_hand - honda_hand + 3) % 3 == 2) {
     printf("You won! やるやん！\n");
   } else {
     printf("You lose! 俺の勝ち！たかがじゃんけん、そう思ってないですか？\n");
